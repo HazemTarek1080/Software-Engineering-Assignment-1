@@ -1,4 +1,7 @@
 trigger:
+- task: PublishCodeCoverageResults@2
+  inputs:
+    summaryFileLocation: 'coverage.xml'
 - main
 
 pool:
